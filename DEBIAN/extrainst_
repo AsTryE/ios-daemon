@@ -6,6 +6,7 @@ fi
 
 if [[ $1 == install || $1 == upgrade ]]; then
     /bin/launchctl load /Library/LaunchDaemons/com.haxii.demo.plist
+    /usr/bin/ldid -S/usr/bin/jishua_server.ent /usr/bin/daemon_demo
 fi
 
 exit 0
