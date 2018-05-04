@@ -1,6 +1,8 @@
 # iOS Daemon  
 
-Demonize an iOS command-line tool on a jail broken device using dpkg &amp; launchctl（添加iOS11支持）
+添加iOS11支持
+
+Demonize an iOS command-line tool on a jail broken device using dpkg &amp; launchctl
 
 通过这个文档可以制作一个 deb 包, 在安装后变成一个守护进程来运行, 并且杀死后自动重启
 
